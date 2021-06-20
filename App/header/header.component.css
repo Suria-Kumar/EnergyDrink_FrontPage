@@ -1,0 +1,6 @@
+.nav-item{
+    font-size: medium;
+}
+.navbar-nav>.active>a{
+color: gold;
+}
