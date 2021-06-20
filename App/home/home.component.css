@@ -1,0 +1,121 @@
+h1{
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Artifika;
+}
+h3{
+    color: white;
+    font-family: Abel;
+    font-size: 15px;
+}
+h2{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+ul {
+    color: white;
+    list-style: none; 
+    font-family: Abel;
+    font-size: medium;
+    letter-spacing: 3px;
+  }
+  
+  ul li::before {
+    content: "\2022"; 
+    color:gold; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -2em; 
+  }
+  .col-sm-5 p{
+      color: white;
+  }
+
+  .btn.btn-square{
+      background-color: black;
+      color: gold;
+      margin-left: 43%;
+  }
+
+  
+  .progress_bar .pro-bar {
+    background: rgb(54, 54, 54);
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1) inset;
+    height:2px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+    position: relative;
+}
+.progress_bar .progress_bar_title{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Abel;
+    position: relative;
+    top: -28px;
+    z-index: 1;
+}
+.progress_bar .progress_number{
+    float: right;
+    
+}
+.progress_bar .progress-bar-inner {
+    background-color: hsl(0, 0%, 88%);
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s linear 0s;
+}
+.progress_bar .progress-bar-inner:before {
+    content: "";
+    background-color:none;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    z-index: 1;
+}
+
+
+h4{
+    color: black;
+    font-size: medium;
+}
+.card-body h5{
+    color: black;
+    font-size: medium;
+}
+.v-divider{
+    margin-left:5px;
+    margin-right:5px;
+    width:1px;
+    height:100%;
+    border-left:1px solid gray;
+   }
+   .h-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:100%;
+    border-top:1px solid gray;
+   }
+ .box{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	transition: all .25s ease-in-out;
+	font-size: 85px;
+	text-align: center;
+	line-height: 100px; 
+	cursor: pointer;
+  }
